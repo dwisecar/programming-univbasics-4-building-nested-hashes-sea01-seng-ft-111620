@@ -16,11 +16,12 @@ def monopoly_with_second_tier
     
     :rent_in_dollars => {},
     :names => {},
-    :pieces => {}
+    :pieces => 4
   }
   
-monopoly
+monopoly[:railroads][:pieces] = 4
 
+monopoly
 end
 
 def monopoly_with_third_tier
